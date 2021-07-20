@@ -8,7 +8,7 @@ function handleNameChange(){
     console.log('Named Changed', event.target.value)
 }
 const hero = document.getElementById("hero")
-hero.innerText = "this is my new hero title"
+hero.innerText = "This is my new Hero Title"
 const links = document.getElementsByClassName('menu-link')
 links[1].style.color = "white"
 const footer = document.querySelector('footer')
